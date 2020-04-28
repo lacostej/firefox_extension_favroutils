@@ -1,0 +1,30 @@
+{
+
+  "manifest_version": 2,
+  "name": "FavroUtils",
+  "version": "1.0",
+
+  "description": "Supports short links...",
+
+  "icons": {
+    "48": "icons/favro-48.png"
+  },
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "favroutils@dragonbox.com"
+    }
+  },
+
+  "background": {
+      "scripts": ["favroutils.js"]
+  },
+
+  "permissions": [
+    "tabs",
+    "webRequest",
+    "webRequestBlocking",
+    "https://favro.com/*"
+  ]  
+
+}
