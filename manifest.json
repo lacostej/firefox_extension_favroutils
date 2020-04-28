@@ -21,10 +21,7 @@
   },
 
   "permissions": [
-    "tabs",
-    "webRequest",
-    "webRequestBlocking",
-    "https://favro.com/*"
+    "tabs"
   ]  
 
 }
